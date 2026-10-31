@@ -1,0 +1,31 @@
+{
+  "documents": [
+    {
+      "type": "Sách",
+      "id": "B001",
+      "title": "Lap trinh Java",
+      "author": "Nguyen Van A",
+      "quantity": 9,
+      "publisher": "NXB Giao Duc",
+      "issueNumber": 0
+    }
+  ],
+  "readers": [
+    {
+      "type": "Sinh viên",
+      "id": "000",
+      "fullName": "M",
+      "phone": "090",
+      "studentId": "000"
+    }
+  ],
+  "borrowRecords": [
+    {
+      "id": "PM1793449016089",
+      "readerId": "000",
+      "documentId": "B001",
+      "borrowDate": "2026-10-31",
+      "dueDate": "2026-11-07"
+    }
+  ]
+}
